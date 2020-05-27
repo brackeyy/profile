@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5{
   line-height: 1;
   color: #999999;
   font-size: 96px;
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 h3, h4, h5{
@@ -71,16 +71,18 @@ p {
   font-size: 15px;
   line-height: 1.5;
   color: #999999;
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 .btn-yellow{
   color: #999999;
   border: 1px solid #999999;
-  padding: 15px 15px;
+  letter-spacing: 1;
+  padding: 18px 15px;
   border-radius: 50px;
   font-weight: lighter;
   opacity: 0.6;
+  margin: 50px auto;
 }
 .btn-yellow:hover{
   opacity: 1;
@@ -112,16 +114,18 @@ p {
   background-position: center;
   border-radius: 5px;
   box-shadow: 3px 3px 3px rgba(240,240,240,0.9);
-  margin: 10px auto;
+  margin: 50px auto;
   text-align: center;
 }
 .top-section > #avatar{
+  background-image: linear-gradient(90deg, rgba(220,220,220,0.3) 50%, rgba(220,220,220,0.3) 50%)
   margin: 20px;
   opacity: 1;
   border-radius: 50%;
 }
 .list-inline{
   list-style: none;
+  padding: 0;
 }
 .list-inline li{
   display: inline-block;
