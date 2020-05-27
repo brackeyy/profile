@@ -49,14 +49,14 @@
   }
 }
 body {
-  font-family: "Open Sans", "Helvetica", "sans-serif";
+  font-family: "Open Sans", "Helvetica", sans-serif;
   padding-bottom: 200px;
   background-color: rgba(240,240,240,0.8);
 }
 
 /* --- Fonts --- */
 h1, h2, h3, h4, h5{
-  font-family: "Montserrat", "sans-serif";
+  font-family: "Montserrat", sans-serif;
   line-height: 1;
   color: #999999;
   font-size: 96px;
